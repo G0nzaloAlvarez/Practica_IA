@@ -1,4 +1,4 @@
-Copyright 2021 Gonzalo Álvare Moreno, Pablo Muñoz
+Copyright 2021 Gonzalo Álvarez Moreno, Pablo Muñoz
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
@@ -21,7 +21,7 @@ Posteriormente, comenzamos a formular las consultas que necesitemos. A continuac
 # Planteamiento:
 
 Dada una baraja de 40 cartas (4 palos con 10 cartas por palo) se quiere conocer las diferentes probabilidades de ganar las diferentes categorias del MUS.
-Se desea llevar a cabo con exito las siguientes consultas a lo largo de la práctica
+Se desea llevar a cabo con exito las siguientes consultas a lo largo de la práctica:
 
     1. Generar una Mano de 4 cartas totalmente aleatoria y SIN repetición.
     2. Ordenar la Mano generada de 4 cartas por oden numerico de menor a mayor
@@ -30,11 +30,11 @@ Se desea llevar a cabo con exito las siguientes consultas a lo largo de la prác
     5. Identificar si una mano posee parejas
     6. Identificar si una mano posee trios
     7. Identificar si una mano posee poker (4 cartas iguales)
-    8. Probabilidad de gananr la categoria de "Parejas"
+    8. Probabilidad de ganar la categoria de "Parejas"
 
 # Predicados
 
-  ## cartas_diferenciadas
+  ## Cartas_diferenciadas
       El predicado "cartas_diferencias([A,B,C,D])" se encarga de comrpobar si la mano que le pasamos cumple con la regla de que todas las cartas sean diferentes entre si donde:
 
       - [A,B,C,D] son las cartas
@@ -50,7 +50,7 @@ Se desea llevar a cabo con exito las siguientes consultas a lo largo de la prác
       ~~~
 
 
- ## carta random
+ ## Carta Random
 
       El predicado de "carta_random(carta(N,P))" se devolver una carta aleatoria entrelas 40 posibles. 
       Para ello genera un numero aleatorio del 0-40 con la función random (lo alamacena en R), extrae la carta que tenga ese numero en la lista.
